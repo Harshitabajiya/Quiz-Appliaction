@@ -24,16 +24,17 @@ public class Rules extends JFrame implements ActionListener{
         rules.setBounds(20, 90, 700, 350);
         rules.setFont(new Font("Tahoma", Font.PLAIN, 16));
         rules.setText(
-            "<html>"+ 
-                "1. You are trained to be a programmer and not a story teller, answer point to point" + "<br><br>" +
-                "2. Do not unnecessarily smile at the person sitting next to you, they may also not know the answer" + "<br><br>" +
-                "3. You may have lot of options in life but here all the questions are compulsory" + "<br><br>" +
-                "4. Crying is allowed but please do so quietly." + "<br><br>" +
-                "5. Only a fool asks and a wise answers (Be wise, not otherwise)" + "<br><br>" +
-                "6. Do not get nervous if your friend is answering more questions, may be he/she is doing Jai Mata Di" + "<br><br>" +
-                "7. Brace yourself, this paper is not for the faint hearted" + "<br><br>" +
-                "8. May you know more than what John Snow knows, Good Luck" + "<br><br>" +
-            "<html>"
+           <html>
+    "1. Answer concisely: Focus on providing direct and to-the-point answers. Avoid unnecessary elaboration." + "<br><br>" +
+    "2. Stay focused: Don't get distracted by others. Their progress has no impact on your performance." + "<br><br>" +
+    "3. All questions matter: Each question holds equal weight. Skipping is not an option." + "<br><br>" +
+    "4. Stay calm: If you feel overwhelmed, take a deep breath and keep going. Silence helps everyone concentrate." + "<br><br>" +
+    "5. Think before asking: Only ask questions if absolutely necessary. Make sure they add value to your understanding." + "<br><br>" +
+    "6. Pace yourself: Everyone works at their own speed. Stick to your pace and focus on your own work." + "<br><br>" +
+    "7. Stay confident: Exams can be challenging, but you’ve prepared for this. Be confident in your abilities." + "<br><br>" +
+    "8. Good luck: Approach the exam with a positive mindset. You are capable of doing your best!" + "<br><br>" +
+</html>
+
         );
         add(rules);
         
